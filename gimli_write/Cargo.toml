@@ -1,0 +1,14 @@
+[package]
+name = "rewrite"
+version = "0.1.0"
+authors = ["Vaibhav Kurhe <mcs192572@cse.iitd.ac.in>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.5"
+object = { version = "0.18.0", features = ["write_core"]}
+gimli = "0.21.0"
+#gimli = { path = "../gimli" }
+memmap = "0.7.0"
